@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/"><a href="/"><img src="../static/images/logo.png" class="logo" alt="santim logo"></a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/market">Market</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About Us</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <header>
+        <h1>Contact Us</h1>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/styles.css">
+    </header>
+    <main>
+        
+        <section>
+            <h2 class="text-c">Contact Information</h2>
+            <address>
+                <p class="text-c"><strong>Abel Legesse</strong></p>
+                <p class="text-c">1010 122nd ST S</p>
+                <p class="text-c">Tacoma, WA 98447</p>
+                <p class="text-c">Email: <a href="mailto:legessaw@gmail.com">legessaw@gmail.com</a></p>
+                <p class="text-c">Phone: <a href="tel:+14255108650">(425) 510-8650</a></p>
+            </address>
+        </section>
+        <section>
+            <h2 class="text-c">Contact Form</h2>
+            <form action="https://formsubmit.co/legessaw@gmail.com" method="post">
+                <label class="text-c" for="name">Name:</label>
+                <input  type="text" id="name" name="name" placeholder="Full Name" required>
+
+                <label class="text-c" for="email">Email:</label>
+                <input placeholder="email" id="email" name="email" required>
+
+                <label class="text-c" for="message">Message:</label>
+                <textarea placeholder="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> 2023 Abel Legesse</p>
+    </footer>
+</body>
+</html>

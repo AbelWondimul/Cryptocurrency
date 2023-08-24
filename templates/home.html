@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santim Crypto</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="backG">
+        <nav>
+            <img src="../static/images/logo.png" class="logo" alt="santim logo">
+             <ul>
+                <li><a href="/market">Market</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+             </ul>
+        </nav> 
+
+        <div class="content">
+            <h1><span class="wordC">LOOK AT THE CURRENT</span><br><PRICE class="wordC">PRICE OF</span> <br> <span class="cyptoColor">CRYPTO</span></h1>
+            <p>We are here to provide you the current price of CryptoCurrencies</p>
+            <a href="/market" class="btn">EXPLORE ME</a>
+        </div>
+        <form id="myForm" action="/" method="get">
+          <div class="coinList">
+            <div class="coin">
+              <img src="../static/images/bitcoinImg.png" alt="Image of a Bitcoin">
+              <div> 
+                <h3>{{btc}}</h3>
+                <p name="btc" value="bitcoin">Bitcoin</p>
+              </div>
+            </div>
+            <div class="coin">
+              <img src="../static/images/ethereumImg.png" alt="Image of a Ethereum">
+              <div> 
+                <h3>{{eth}}</h3>
+                <p name="coinName" value="ethereum">Ethereum</p>
+              </div>
+            </div>
+          
+          <div class="coin">
+
+            <img src="../static/images/maker-logo.png" alt="Image of a Maker">
+            <div> 
+              <h3>{{mkr}}</h3>
+              <p name="coinName" value="maker">Maker</p>
+            </div>
+          </div>
+          
+        </div>
+       </form>
+</body>
+
+</html>

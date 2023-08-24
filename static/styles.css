@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+    
+}
+
+html {
+    width:100% !important;
+    height:100% !important;
+    background-color: #000c45;
+   
+    background-size:cover !important;
+    background-position: center !important;
+    padding:0 7% !important;
+    
+}
+
+body{
+    color: rgb(0, 0, 0);
+    background-color:#000c45;
+    height:100%;
+    font-size: x-large;
+}
+table {
+    text-align: center !important;
+}
+
+.back {
+   box-shadow: #1620e8;
+}
+
+.logo{
+    height: auto;
+    width:80px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+.logo2{
+    height: auto;
+    width: 120px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section h2 {
+    margin-top: 0;
+}
+
+address p {
+    margin: 0.5rem 0;
+}
+form {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+.tb{
+    box-shadow: 0 0 15px 15px rgb(53, 12, 232);
+}
+
+.tr:hover{
+    transform: translateY(-10px);
+}
+
+.text-c{
+    color:#ccc
+}
