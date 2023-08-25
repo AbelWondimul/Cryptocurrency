@@ -6,7 +6,7 @@
     
 }
 
-html {
+.ht {
     width:100% !important;
     height:100% !important;
     background-color: #000c45;
@@ -114,4 +114,96 @@ footer {
 
 .text-c{
     color:#ccc
+}
+.backG{
+    width:100% !important;
+    height:100vh !important;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    background-size:cover !important;
+    background-position: center !important;
+    padding:0 7% !important;
+    color:white !important;
+}
+
+nav{
+   width:100%;
+   padding:20px 0; 
+   display:flex;
+   align-items: center;
+}
+
+nav ul {
+    flex:1;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+nav .btn{
+    color:white;
+    text-decoration:none;
+    border: 1px solid white;
+    padding:10px 30px;
+    border-radius:20px;
+}
+.content{
+    margin-top:12%;
+}
+.content h1{
+    font-size:90px;
+    margin-bottom:15px;
+}
+
+.cyptoColor{
+    color: orange
+}
+.wordC{
+    color: rgb(255, 200, 3);
+}
+
+.content p{
+   line-height: 22px; 
+   font-size:14px;
+}
+
+.content .btn{
+    display:inline-block;
+    margin-top:30px;
+    background: orange;
+    color:aliceblue;
+    text-decoration: none;
+    padding:15px 30px;
+    border-radius:30px;
+}
+.coinList{
+    position:absolute;
+    right:10%;
+    bottom:50px;
+    display:flex;
+    align-items:center;
+}
+.coin{
+    display:flex;
+    align-items: center;
+    font-size:14px;
+    margin:0 15px;
+    color:orange;
+    border:1px solid white;
+    padding: 20px 30px;
+    border-radius:8px;
+}
+.coin img{
+    width:40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.coin h3{
+    color:white;
+    margin-bottom: 5px;
 }
