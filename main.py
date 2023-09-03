@@ -9,8 +9,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# api_key = os.getenv("API_KEY")
-api_key ="74a0e1a778ba10d0e20349b28f9fcbae"
+api_key = os.getenv("API_KEY")
+
 
 @app.route('/market')
 def main():
@@ -20,12 +20,7 @@ def main():
     rates = response_json['rates']
     
 
-    # url2 = "http://api.coinlayer.com/list?access_key=74a0e1a778ba10d0e20349b28f9fcbae"
-    # response2 = requests.get(url2)
-    # response_json2 = response2.json()
-    # # icon_url = response_json2['crypto'][rates]
     
-    #return rates.keys()
     return render_template('market.html',rates=rates)
 
 @app.route('/')
