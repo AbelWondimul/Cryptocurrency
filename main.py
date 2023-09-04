@@ -11,7 +11,6 @@ app = Flask(__name__)
 
 api_key = os.getenv("API_KEY")
 
-
 @app.route('/market')
 def main():
     url = f"http://api.coinlayer.com/live?access_key={api_key}&target=USD"
@@ -20,7 +19,12 @@ def main():
     rates = response_json['rates']
     
 
+    # url2 = "http://api.coinlayer.com/list?access_key=74a0e1a778ba10d0e20349b28f9fcbae"
+    # response2 = requests.get(url2)
+    # response_json2 = response2.json()
+    # # icon_url = response_json2['crypto'][rates]
     
+    #return rates.keys()
     return render_template('market.html',rates=rates)
 
 @app.route('/')
@@ -44,6 +48,6 @@ def contactUs():
 
 
 
-if __name__ == "__main__":
-    app.debug = True
-    app.run(host='127.0.0.1', port=8000)
+# if __name__ == "__main__":
+#     app.debug = True
+#     app.run(host='127.0.0.1', port=8000)
