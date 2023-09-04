@@ -11,6 +11,7 @@ app = Flask(__name__)
 
 api_key = os.getenv("API_KEY")
 port = os.getenv("PORT")
+host = os.getenv("HOST")
 
 @app.route('/market')
 def main():
@@ -51,4 +52,4 @@ def contactUs():
 
 if __name__ == "__main__":
     app.debug = True
-    app.run(host='127.0.0.1', port=port)
+    app.run(host=host, port=port)
