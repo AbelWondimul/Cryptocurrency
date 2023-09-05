@@ -11,3 +11,4 @@ setuptools==65.5.0
 gunicorn==20.1.0
 itsdangerous==2.1.2
 zipp==3.10.0
+waitress==2.1.2
