@@ -44,7 +44,7 @@ Before you can run this cryptocurrency price tracker website, you need to have t
   ```
    python -m venv venv
   ```
-7. Activate the virtual environment:
+6. Activate the virtual environment:
 
 - On Windows:
 
@@ -58,7 +58,7 @@ Before you can run this cryptocurrency price tracker website, you need to have t
   source venv/bin/activate
   ```
 
-5. Install the required dependencies:
+7. Install the required dependencies:
   ```
     pip install -r requirements.txt
   ```
