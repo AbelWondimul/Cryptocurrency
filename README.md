@@ -36,15 +36,15 @@ Before you can run this cryptocurrency price tracker website, you need to have t
   ```
    git clone https://github.com/AbelWondimul/Cryptocurrency.git
   ```
-3. Navigate to the project directory:
+2. Navigate to the project directory:
   ```
    cd crypto-price-tracker
   ```
-5. Create a virtual environment (optional but recommended):
+3. Create a virtual environment (optional but recommended):
   ```
    python -m venv venv
   ```
-6. Activate the virtual environment:
+4. Activate the virtual environment:
 
 - On Windows:
 
@@ -58,7 +58,7 @@ Before you can run this cryptocurrency price tracker website, you need to have t
   source venv/bin/activate
   ```
 
-7. Install the required dependencies:
+5. Install the required dependencies:
   ```
     pip install -r requirements.txt
   ```
