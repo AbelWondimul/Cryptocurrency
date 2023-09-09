@@ -77,7 +77,7 @@ Before you can run this cryptocurrency price tracker website, you need to have t
 
 ## API Integration
 
-This project uses a cryptocurrency price API to fetch real-time price data. You can easily switch to a different API provider by updating the API URL in the `crypto.py` file. Make sure to adapt the API request and response handling code accordingly to match the new API's structure.
+This project uses a cryptocurrency price API to fetch real-time price data. You can easily switch to a different API provider by updating the API URL in the `main.py` file. Make sure to adapt the API request and response handling code accordingly to match the new API's structure.
 
 ## Contributing
 
