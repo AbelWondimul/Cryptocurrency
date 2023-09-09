@@ -13,7 +13,6 @@ This is a simple cryptocurrency price tracker website that allows you to monitor
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
